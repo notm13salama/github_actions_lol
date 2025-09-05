@@ -1,8 +1,8 @@
 #! /bin/bash
 
-EXPECTED = "Welcome LOL :)"
+EXPECTED="Welcome LOL :)"
 
-OUTPUT = "$(node src/app.js)"
+OUTPUT="$(node src/app.js)"
 
 if [ "$EXPECTED" = "$OUTPUT" ]; then
     echo "Test passed"

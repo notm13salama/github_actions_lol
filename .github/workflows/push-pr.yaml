@@ -19,4 +19,4 @@ jobs:
       - name: checkout repo
         uses: actions/checkout@v5.0.0
       - name: run tests
-        run: npm run test
+        run: bash src/test.sh

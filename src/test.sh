@@ -1,8 +1,8 @@
-#! /bin/bash
+#!/bin/bash
 
-EXPECTED="Welcome LOL :)"
+EXPECTED="Welcome momo, LOL :)"
 
-OUTPUT="$(node src/app.js)"
+OUTPUT="$(python src/app.py momo)"
 
 if [ "$EXPECTED" = "$OUTPUT" ]; then
     echo "Test passed"

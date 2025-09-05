@@ -1,0 +1,11 @@
+on:
+  schedule:
+    - cron: "0 0 * * *"
+    - cron: "0 12 * * *"
+
+jobs:
+  daily:
+    runs-on: ubuntu-latest
+    steps:
+      - name: printing
+        run: echo "hello world"

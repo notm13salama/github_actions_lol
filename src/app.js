@@ -5,7 +5,3 @@ function greet() {
 module.exports = {
     greet
 }
-
-if (require.main === module) {
-    greet();
-}
